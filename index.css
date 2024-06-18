@@ -68,7 +68,8 @@ header{
     background-color:#F5F5F6;
     border:0;
     margin-left:14px;
-    
+    border-radius:5px;
+
 }
 @media screen and (max-width:1067px){
     .search_bar input{
@@ -98,6 +99,7 @@ header{
     cursor:pointer;
     height:100%;
     transition:0.2s;
+    border-bottom:4px solid white;
 }
 .profile:hover{
     border-bottom:4px solid #F87C7C;
