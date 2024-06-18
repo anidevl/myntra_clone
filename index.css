@@ -1,0 +1,253 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+    border-bottom:1px solid grey;
+    overflow:auto;
+
+}
+.logo_container{
+    margin-left:4%;
+}
+.myntra_home{
+    height:68px;
+}
+.nav_bar{
+    display:flex;
+    flex-direction:row;
+    min-width:500px;
+    justify-content:space-evenly;
+    overflow:auto;
+}
+.nav_bar a{
+    font-size:14px;
+    letter-spacing:.3px;
+    font-weight:700;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:black;
+    padding:28px 0;
+    border-bottom:5px solid white;
+    transition:0.4s;
+}
+.nav_bar a:hover{
+   border-bottom: 4px solid #F87C7C;
+}
+.nav_bar a sup{
+    font-size:9px;
+    color:#F87C7C;
+    margin:2px;
+}
+.search_bar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    min-width:200px;
+    background-color:#F5F5F6;
+    height:38px;
+    width:30%;
+    border-radius:5px;
+    overflow:auto;
+    padding-left:10px;
+
+}
+
+
+.search_bar input{
+    height:100%;
+    width:100%;
+    background-color:#F5F5F6;
+    border:0;
+    margin-left:14px;
+    
+}
+@media screen and (max-width:1067px){
+    .search_bar input{
+        display:none;
+    }
+    
+}
+.action_bar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    height:100%;
+    width:92px;
+    flex-grow:0.4;
+    min-width:200px;
+    overflow:auto;
+    margin-left:20px;
+    margin-right:20px;
+}
+.profile{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    cursor:pointer;
+    height:100%;
+    transition:0.2s;
+}
+.profile:hover{
+    border-bottom:4px solid #F87C7C;
+}
+
+.profile_logo:hover{
+    color:#F7D652;
+
+}
+.heart{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.heart_logo:hover{
+    color:#F65675;
+
+}
+.bag{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    margin-right:10px;
+}
+.shopping-bag{
+    height:16px;
+}
+.sale_banner{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:92px;
+    cursor:pointer;
+}
+.sale_banner img{
+   width:100%;
+
+}
+.coupon_corner{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    overflow:hidden;
+    cursor:pointer;
+}
+.coupon_corner img{
+    width:86%;
+}
+.coupons{
+    display:flex;
+    justify-content:center;
+    cursor:pointer;
+    overflow:hidden;
+}
+.coupons img{
+    width:48%;
+}
+.deals{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    overflow:hidden;
+}
+.deals img{
+    width:100%;
+}
+.brand_container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    overflow:hidden;
+    margin-top:20px;
+}
+.brand_container img{
+    width:16%;
+    cursor:pointer;
+}
+.shop_category{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+}
+.shop_category img{
+    width:92%;
+    cursor:pointer;
+}
+.offers{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:32px;
+    overflow:hidden;
+}
+.offers img{
+    width:16%;
+    cursor:pointer;
+}
+.last_banner{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.last_banner img{
+    width:92%;
+    cursor:pointer;
+}
+footer{
+    margin-top:80px;
+    background-color:#FAFBFC;
+}
+.footer_container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    overflow:hidden;
+    border-bottom:2px solid #9496A8;
+}
+.footer_column{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin:8px;
+}
+.footer_column a{
+    text-decoration:none;
+    color:#696b79;
+    font-size:14px;
+    padding-bottom:10px;
+
+}
+.copyright{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:10px;
+    color:#696B79;
+}
+
